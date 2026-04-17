@@ -39,14 +39,20 @@ const img = document.getElementById("catImage")
 console.log(button);
 console.log(img);
 
+const button2 = document.getElementById("button2")
 button.addEventListener("click", () => {
+    
     fetch("https://api.thecatapi.com/v1/images/search?limit=10")
         .then(res => res.json())
         .then(data => {
             img.src = data[0].url;
         })
-        .catch(error => {
-            console.error(error);
+    document.getElementById("button2").addEventListener("click", () => {
+    img.src = "";
+    })    
+    document.getElementById("Mensagem").remove()
+    .catch(error => {
+            console.error(error)
         });
 
 })
