@@ -1,0 +1,18 @@
+Execution Policy: Windows bloqueia o uso de script
+
+Node -> Runtime de JS no lado do servidor.
+NVM (Node Version Manager) -> Gerenciador de verões de Node. Através dele, eu
+gerencio as versões instaladas do NODEJS no seu computador.
+NPM (Node Packeage Manager) -> Gerenciador de pacotes
+
+
+
+O que é REACT?
+
+- 1. REACT é uma Biblioteca (Conjunto de funcionalidades que facilitam o desenvolvimento de uma solução)
+
+Por que utilizamos REACT?
+
+- 1. Componentização
+
+- 3. Ecossistema: Comunidade, Bibliotecas e ferramentas (AOS MILHARES)
