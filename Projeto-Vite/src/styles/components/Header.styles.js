@@ -7,7 +7,7 @@ export default function Header({ toggleTema, temaAtual }) {
     <HeaderContainer>
       <h1>Minhas Tarefas</h1>
       <ThemeButton onClick={toggleTema}>
-        {temaAtual === 'light' ? '🌙 Modo Escuro' : '☀️ Modo Claro'}
+        {temaAtual === 'light' ? 'Modo Escuro' : 'Modo Claro'}
       </ThemeButton>
     </HeaderContainer>
   );
